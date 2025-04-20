@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 from Backend.model import getResponse
 from flask import Flask, request, jsonify, render_template
-
+    
 app = Flask(__name__)
 
 load_dotenv()
